@@ -1,0 +1,53 @@
+//META{"name":"Orange","description":"Orange. Orange. Orange","author":"recreation#8422 // Zerthox","version":"0.1","source":"https://codedotspectra.github.io/neutron","website":"https://codedotspectra.github.io/neutron"}*//{}
+/*
+██████╗ ██████╗  █████╗ ███╗   ██╗ ██████╗ ███████╗
+██╔═══██╗██╔══██╗██╔══██╗████╗  ██║██╔════╝ ██╔════╝
+██║   ██║██████╔╝███████║██╔██╗ ██║██║  ███╗█████╗
+██║   ██║██╔══██╗██╔══██║██║╚██╗██║██║   ██║██╔══╝
+╚██████╔╝██║  ██║██║  ██║██║ ╚████║╚██████╔╝███████╗
+╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝
+####################################################################
+Orange theme for Neutron X by recreation#8422
+Version: 0.1
+Neutron X: https://codedotspectra.github.io/neutron
+##################################################################*/
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+/*###############################################################*/
+:root {
+  /* Images */
+  --bgImage: url('https://i.imgur.com/ieS6GJ1.jpg');
+  --HomeButtonImg: url("https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/homeBtn.png");
+  --brightness: 0.7;
+
+  /* font */
+  --customFont: 'Raleway';
+
+  /* Colors */
+  --PrimaryColor01: rgb(255,87,34);
+  --PrimaryColorRGBA: rgba(255,87,34, 0.15);
+  --PrimaryColor02: #bf360c;
+  --DangerColor: #ff4444;
+  --WarningColor: #ffbb33;
+  --SuccesColor: #00c851;
+  --InfoColor: #33b5e5;
+  --DangerColor02: #cc0000;
+  --WarningColor02: #ff8800;
+  --SuccesColor02: #007e33;
+  --InfoColor02: #0099cc;
+  --DefaultColor: #6c757d;
+  --DefaultColor02: #5a6268;
+
+  /* Texts colors */
+  --ChatTextColor: hsla(0, 100%, 100%, 1);
+  --RoleTitleColor: hsla(14.2,100%,78.4%, 0.9);
+  --UserPlayingTextColor: hsla(14.2,100%,78.4%, 0.8);
+  --ChannelsSelectedTextColor: hsla(0, 100%, 100%, 0.8);
+  --ChannelsDefaultTextColor: hsla(0, 100%, 100%, .4);
+  --ChannelsDarkTextColor: hsla(0, 100%, 100%, 0.2);
+
+  /* background colors (non-trasnparent)*/
+  --NTBackgroundColor01: #37474F;
+  --NTBackgroundColor02: #263238;
+  --NTBackgroundColor03: #2E2E2E;
+  --NTBackgroundColor04: #212121;
+}

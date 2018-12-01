@@ -1,0 +1,53 @@
+//META{"name":"BMW M4","description":"BMW M4 provides a sleek taste for car lovers","author":"recreation#8422","version":"0.1","source":"https://github.com/codedotspectra/discordneutron","website":"https://codedotspectra.github.io/neutron"}*//{}
+/*
+██████╗ ███╗   ███╗██╗    ██╗    ███╗   ███╗██╗  ██╗
+██╔══██╗████╗ ████║██║    ██║    ████╗ ████║██║  ██║
+██████╔╝██╔████╔██║██║ █╗ ██║    ██╔████╔██║███████║
+██╔══██╗██║╚██╔╝██║██║███╗██║    ██║╚██╔╝██║╚════██║
+██████╔╝██║ ╚═╝ ██║╚███╔███╔╝    ██║ ╚═╝ ██║     ██║
+╚═════╝ ╚═╝     ╚═╝ ╚══╝╚══╝     ╚═╝     ╚═╝     ╚═╝
+####################################################################
+BMW M4 theme for Neutron X by recreation#8422
+Theme requested by @KCzSlayer
+Version: 0.1
+Neutron X: https://codedotspectra.github.io/neutron
+##################################################################*/
+@import url('https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700,900');
+/*################################################################*/
+:root {
+  /*Images*/
+  --bgImage: url('https://i.imgur.com/ffjpEWm.jpg');
+  --brightness: 0.75;
+
+  /* Font */
+  --customFont: 'Cairo';
+
+  /*Colors*/
+  --PrimaryColor01: rgb(189,14,18);
+  --PrimaryColorRGBA: rgba(189,14,18, 0.25);
+  --PrimaryColor02: rgb(117,9,11);
+  --DangerColor: #ff4444;
+  --WarningColor: #ffbb33;
+  --SuccesColor: #00c851;
+  --InfoColor: #33b5e5;
+  --DangerColor02: #cc0000;
+  --WarningColor02: #ff8800;
+  --SuccesColor02: #007e33;
+  --InfoColor02: #0099cc;
+  --DefaultColor: #6c757d;
+  --DefaultColor02: #5a6268;
+
+  /* Texts colors */
+  --ChatTextColor: hsla(0, 100%, 100%, 1);
+  --RoleTitleColor: hsla(358.9,86.2%,62.9%,.9);
+  --UserPlayingTextColor: hsla(358.9,86.2%,62.9%,.45);
+  --ChannelsSelectedTextColor: hsla(0, 100%, 100%, 0.85);
+  --ChannelsDefaultTextColor: hsla(0, 100%, 100%, .4);
+  --ChannelsDarkTextColor: hsla(0, 100%, 100%, 0.2);
+
+  /* background colors (non-trasnparent)*/
+  --NTBackgroundColor01: #3B3A43;
+  --NTBackgroundColor02: #232228;
+  --NTBackgroundColor03: #282c34;
+  --NTBackgroundColor04: #21252c;
+}

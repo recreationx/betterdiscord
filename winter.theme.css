@@ -1,0 +1,54 @@
+//META{"name":"Winter","description":"Winter gives a strong calm winter season vibe.( Ported ClearVision Winter for Neutron X)","author":"recreation#8422 // Zerthox","version":"0.1","source":"https://codedotspectra.github.io/neutron","website":"https://github.com/recreationx/betterdiscord"}*//{}
+/*
+██╗    ██╗██╗███╗   ██╗████████╗███████╗██████╗
+██║    ██║██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗
+██║ █╗ ██║██║██╔██╗ ██║   ██║   █████╗  ██████╔╝
+██║███╗██║██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗
+╚███╔███╔╝██║██║ ╚████║   ██║   ███████╗██║  ██║
+ ╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+####################################################################
+Winter theme for Neutron X by recreation#8422
+This theme is inspiried by ClearVision's Winter Theme by @Zerthox
+Version: 0.1
+Neutron X: https://codedotspectra.github.io/neutron
+##################################################################*/
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url("https://raw.githack.com/codedotspectra/discordneutron/master/importCSS/xcore.css");
+/*################################################################*/
+:root {
+    /*Images*/
+    --bgImage: url('https://zerthox.github.io/ClearVision/images/winter.jpg');
+    --brightness: 0.8;
+
+    /*Font*/
+    --customFont: 'Rubik';
+
+    /* Colors */
+    --PrimaryColor01: rgb(102,170,204);
+    --PrimaryColorRGBA: rgba(102,170,204,0.15);
+    --PrimaryColor02: rgb(68,119,153);
+    --DangerColor: #ff4444;
+    --WarningColor: #ffbb33;
+    --SuccesColor: #00c851;
+    --InfoColor: #33b5e5;
+    --DangerColor02: #cc0000;
+    --WarningColor02: #ff8800;
+    --SuccesColor02: #007e33;
+    --InfoColor02: #0099cc;
+    --DefaultColor: #6c757d;
+    --DefaultColor02: #5a6268;
+
+    /* Texts colors */
+    --ChatTextColor: hsla(0, 100%, 100%, 1);
+    --RoleTitleColor: hsla(200,50%,60%, 0.95);
+    --UserPlayingTextColor: hsla(200.3,50.3%,70%, .75);
+    --ChannelsSelectedTextColor: hsla(0, 100%, 100%, 0.75);
+    --ChannelsDefaultTextColor: hsla(0, 100%, 100%, .4);
+    --ChannelsDarkTextColor: hsla(0, 100%, 100%, 0.2);
+
+    /* background colors (non-transparent)*/
+   --NTBackgroundColor01: #2c2f3a;
+   --NTBackgroundColor02: #16161d;
+   --NTBackgroundColor03: #1a1c21;
+   --NTBackgroundColor04: #0f1013;
+}

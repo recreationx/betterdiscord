@@ -1,0 +1,54 @@
+//META{"name":"Coffee","description":"Coffee. Enjoy life at its finest.","author":"recreation#8422","version":"0.1","source":"https://github.com/codedotspectra/discordneutron","website":"https://codedotspectra.github.io/neutron"}*//{}
+/*
+_________           _____   _____
+\_   ___ \   ____ _/ ____\_/ ____\ ____   ____
+/    \  \/  /  _ \\   __\ \   __\_/ __ \_/ __ \
+\     \____(  <_> )|  |    |  |  \  ___/\  ___/
+ \______  / \____/ |__|    |__|   \___  >\___  >
+        \/                            \/     \/
+################################################################
+Coffee theme for Neutron X by recreation#8422
+Version: 0.2
+Neutron X: https://codedotspectra.github.io/neutron
+###############################################################*/
+@import url("https://fonts.googleapis.com/css?family=Tajawal");
+/*#############################################################*/
+
+:root {
+  /* Images */
+  --bgImage: url("https://i.imgur.com/UPMFgad.gif");
+  --HomeButtonImg: url("https://i.imgur.com/cFQBqhl.png");
+  --brightness: 0.5;
+
+  /* Font */
+  --customFont: 'Tajawal';
+
+  /* Colors */
+  --PrimaryColor01: rgb(162,114,80);
+  --PrimaryColorRGBA: rgba(128, 114, 80, 0.15);
+  --PrimaryColor02: #805a3f;
+  --DangerColor: #ff4444;
+  --WarningColor: #ffbb33;
+  --SuccesColor: #00c851;
+  --InfoColor: #33b5e5;
+  --DangerColor02: #cc0000;
+  --WarningColor02: #ff8800;
+  --SuccesColor02: #007e33;
+  --InfoColor02: #0099cc;
+  --DefaultColor: #6c757d;
+  --DefaultColor02: #6f4e37;
+
+  /* Texts colors */
+  --ChatTextColor: hsla(0, 100%, 100%, 1);
+  --RoleTitleColor: hsla(25.1, 33.9%, 57.3%, 1);
+  --UserPlayingTextColor: hsla(25.3, 34.2%, 52.4%, .8);
+  --ChannelsSelectedTextColor: hsla(0, 100%, 100%, 0.8);
+  --ChannelsDefaultTextColor: hsla(0, 100%, 100%, .4);
+  --ChannelsDarkTextColor: hsla(0, 100%, 100%, 0.);
+
+  /* background colors (non-trasnparent)*/
+  --NTBackgroundColor01: #805a3f;
+  --NTBackgroundColor02: #6f4e37;
+  --NTBackgroundColor03: #4d3626;
+  --NTBackgroundColor04: #4d3626;
+}

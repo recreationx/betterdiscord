@@ -1,0 +1,51 @@
+//META{"name":"Galaxy Collapse","description":"Galaxy Collapse is a theme for simplicity","author":"recreation#8422","version":"0.1","source":"https://github.com/codedotspectra/discordneutron","website":"https://codedotspectra.github.io/neutron"}*//{}
+/*
+██████╗  █████╗ ██╗      █████╗ ██╗  ██╗██╗   ██╗     ██████╗ ██████╗ ██╗     ██╗      █████╗ ██████╗ ███████╗███████╗
+██╔════╝ ██╔══██╗██║     ██╔══██╗╚██╗██╔╝╚██╗ ██╔╝    ██╔════╝██╔═══██╗██║     ██║     ██╔══██╗██╔══██╗██╔════╝██╔════╝
+██║  ███╗███████║██║     ███████║ ╚███╔╝  ╚████╔╝     ██║     ██║   ██║██║     ██║     ███████║██████╔╝███████╗█████╗
+██║   ██║██╔══██║██║     ██╔══██║ ██╔██╗   ╚██╔╝      ██║     ██║   ██║██║     ██║     ██╔══██║██╔═══╝ ╚════██║██╔══╝
+╚██████╔╝██║  ██║███████╗██║  ██║██╔╝ ██╗   ██║       ╚██████╗╚██████╔╝███████╗███████╗██║  ██║██║     ███████║███████╗
+╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝        ╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝╚══════╝
+#######################################################################################################################
+Galaxy Collapse theme for Neutron X by recreation#8422
+This theme is a low effort white theme because I am braindead :3
+Version: 0.1
+Neutron X: https://codedotspectra.github.io/neutron
+#####################################################################################################################*/
+@import url("https://raw.githack.com/codedotspectra/discordneutron/master/importCSS/xcore.css");
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+/*###################################################################################################################*/
+:root {
+  /* Images and font*/
+  --bgImage: url('https://i.imgur.com/2CG7TkI.jpg');
+  --HomeButtonImg: url('https://cdn0.iconfinder.com/data/icons/flat-design-galaxy/1701/Dots1-512.png');
+  --brightness: 0.83;
+  --customFont: 'Questrial';
+  /* Colors */
+  --PrimaryColor01: rgb(178,178,178);
+  --PrimaryColorRGBA: rgba(178,178,178, 0.35);
+  --PrimaryColor02: #7f7f7f;
+  --DangerColor: #ff4444;
+  --WarningColor: #ffbb33;
+  --SuccesColor: #00c851;
+  --InfoColor: #33b5e5;
+  --DangerColor02: #cc0000;
+  --WarningColor02: #ff8800;
+  --SuccesColor02: #007e33;
+  --InfoColor02: #0099cc;
+  --DefaultColor: #6c757d;
+  --DefaultColor02: #5a6268;
+  /* Text colors */
+  --ChatTextColor: hsla(0, 100%, 100%, .9);
+  --RoleTitleColor: hsla(0,0%,89.8%, 0.8);
+  --UserPlayingTextColor: hsla(0,0%,85.1%, .75);
+  --ChannelsSelectedTextColor: hsla(0, 100%, 100%, 0.95);
+  --ChannelsDefaultTextColor: hsla(0, 100%, 100%, .45);
+  --ChannelsDarkTextColor: hsla(0, 100%, 100%, 0.2);
+  /* More Colors */
+  --NTBackgroundColor01: #4c4c4c;
+  --NTBackgroundColor02: #333333;
+  --NTBackgroundColor03: #1a1a1a;
+  --NTBackgroundColor04: #000000;
+
+}
