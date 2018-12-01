@@ -12,6 +12,7 @@ Theme requested by @KCzSlayer
 Version: 0.1
 Neutron X: https://codedotspectra.github.io/neutron
 ##################################################################*/
+@import url("https://raw.githack.com/codedotspectra/discordneutron/master/importCSS/xcore.css");
 @import url('https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700,900');
 /*################################################################*/
 :root {

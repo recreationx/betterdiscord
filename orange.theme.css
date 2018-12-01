@@ -12,6 +12,7 @@ Version: 0.1
 Neutron X: https://codedotspectra.github.io/neutron
 ##################################################################*/
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://raw.githack.com/codedotspectra/discordneutron/master/importCSS/xcore.css");
 /*###############################################################*/
 :root {
   /* Images */
