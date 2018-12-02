@@ -1,0 +1,54 @@
+//META{"name":"Quantum","description":"Let your imagination fly.","author":"recreation#8422","version":"0.1","source":"https://codedotspectra.github.io/neutron","website":"https://github.com/recreationx/betterdiscord"}*//{}
+/*
+██████╗ ██╗   ██╗ █████╗ ███╗   ██╗████████╗██╗   ██╗███╗   ███╗
+██╔═══██╗██║   ██║██╔══██╗████╗  ██║╚══██╔══╝██║   ██║████╗ ████║
+██║   ██║██║   ██║███████║██╔██╗ ██║   ██║   ██║   ██║██╔████╔██║
+██║▄▄ ██║██║   ██║██╔══██║██║╚██╗██║   ██║   ██║   ██║██║╚██╔╝██║
+╚██████╔╝╚██████╔╝██║  ██║██║ ╚████║   ██║   ╚██████╔╝██║ ╚═╝ ██║
+╚══▀▀═╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝
+###############################################################################################
+Quantum theme for Neutron X by recreation#8422
+Version: 0.1
+Neutron X: https://codedotspectra.github.io/neutron
+##############################################################################################*/
+@import url("https://raw.githack.com/codedotspectra/discordneutron/master/importCSS/xcore.css");
+@import url('https://fonts.googleapis.com/css?family=Exo');
+/*############################################################################################*/
+:root {
+  --bgImage: url('https://i.imgur.com/TElGeAa.jpg');
+  --HomeButtonImg: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDJ5rt8s75Ai1_Cgj7-Wmtav0jLxEwW4MVzbzUKuVIxH_yPKFu');
+  --brightness: 0.75;
+  --customFont: 'Exo';
+
+  --PrimaryColor01: rgb(186,85,211);
+  --PrimaryColorRGBA: rgba(186,85,211, 0.2);
+  --PrimaryColor02: rgb(153,50,204);
+  --DangerColor: #ff4444;
+  --WarningColor: #ffbb33;
+  --SuccesColor: #00c851;
+  --InfoColor: #33b5e5;
+  --DangerColor02: #cc0000;
+  --WarningColor02: #ff8800;
+  --SuccesColor02: #007e33;
+  --InfoColor02: #0099cc;
+  --DefaultColor: #6c757d;
+  --DefaultColor02: #6f4e37;
+  --links: rgb(153,50,204);
+  --ChatTextColor: hsla(0, 100%, 100%, 1);
+  --RoleTitleColor: rgba(186,85,211, 0.85) ;
+  --UserPlayingTextColor: rgba(153,50,204, 0.85);
+  --ChannelsSelectedTextColor: hsla(0, 100%, 100%, 0.6);
+  --ChannelsDefaultTextColor: hsla(0, 100%, 100%, 0.4);
+  --ChannelsDarkTextColor: hsla(0, 100%, 100%, 0.2);
+  --NTBackgroundColor01: #722386;
+  --NTBackgroundColor02: #611e72;
+  --NTBackgroundColor03: #621d73;
+  --NTBackgroundColor04: #3f134a;
+}
+
+
+/* Theme modifications */
+.botTagRegular-2HEhHi { /* Bot tag */
+  background: rgba(186,85,211, .75);
+  color: rgba(100%, 100%,100%, 0.9);
+}
