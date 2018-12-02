@@ -1,0 +1,89 @@
+/* ignore this theme i was too bored */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+.appMount-3VJmYg {
+  background-color: #ffffff;
+  background-image: none;
+}
+.channels-Ie2l6A {
+    background-color: #F5F5F5 !important;
+}
+.theme-dark .memberOnline-1CIh-0 {
+  color: #000000;
+}
+.theme-dark .memberOffline-2lN7gt {
+  color: #000000;
+}
+.theme-dark .members-1998pB {
+  background-color: #f5f5f5;
+}
+.theme-dark .channelName-3stJzi, .theme-dark .groupDM-3qU0Ks .channelName-3stJzi, .theme-dark .groupDMManaged-1GyXtq .channelName-3stJzi, .theme-dark .input-autosize-input, .theme-dark .input-autosize-input:focus {
+  color: #000000;
+}
+.theme-dark .topic-2QX7LI {
+  color: #000000;
+}
+.header-2o-2hj {
+  color:#000000;
+}
+.theme-dark .timestampCozy-2hLAPV {
+  color: #000000;
+}
+
+.colorConnectedText-1c_uzY, .colorConnectedVoice-3kyvUN, .colorDefaultText-oas-QM, .colorDefaultVoice-3wYlhb, .colorHoveredText-OZnAgu, .colorHoveredVoice-1kucsK, .colorLockedText-1VRkPt, .colorLockedVoice-2UlBjl, .colorSelectedText-1y4Wvs, .colorSelectedVoice-Xcb_9R, .colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S {
+  color: #000000;
+}
+.header-2o-2hj {
+  background-color: #E9E9E9 !important;
+}
+.theme-dark .username-_4ZSMR {
+  color:black;
+}
+.app.flex-vertical .dividerEnabled-2TTlcf {
+    border-bottom-color: grey;
+}
+.theme-dark .iconForeground-3y9f0B, .theme-dark .title-1aVOXw {
+  color: #000000;
+}
+.headerName-fajvi9, .headerTagUsernameNoNickname-2_H881 , .headerTag-2pZJzA{
+  color: #000000;
+}
+.roleName-32vpEy, .theme-dark .primary-jw0I4K{
+  color:#000000;
+}
+.textArea-2Spzkt {
+  background-color: #ffffff;
+  border-color: #000000;
+}
+.guilds-1q_RqH, .scrollerWrap-1IAIlv {
+  background:#F5F5F5 !important;
+}
+.theme-dark .friendsOnline-_wi_fM, .theme-light .friendsOnline-_wi_fM, .theme-dark .homeIcon-1FoKUJ{
+  color: black;
+}
+.theme-dark .container-2Thooq, .theme-light .container-2Thooq {
+  background: #E9E9E9;
+  color: black;
+}
+.theme-dark .button-2b6hmh, .theme-light .button-2b6hmh {}
+:root {
+  --brightness: 0;
+  --HomeButtonImg: url('http://chittagongit.com//images/discord-icon-png/discord-icon-png-8.jpg');
+  --ChatTextColor: hsla(0, 0%, 0%, 1);
+  --ChannelsSelectedTextColor: hsla(0, 0%, 100%, 1);
+  --ChannelsDefaultTextColor: hsla(0, 0%, 0%, 1);
+  --ChannelsDarkTextColor: hsla(0, 100%, 100%, 0.5);
+  --RoleTitleColor: #000000;
+  --PrimaryColor01: #000000;
+  --PrimaryColor02: #000000;
+  --UserPlayingTextColor: hsla(0, 0%, 0%, 0.8);
+  --customFont: 'Exo';
+  --NTBackgroundColor01: #ffffff;
+  --NTBackgroundColor02: #ffffff;
+  --NTBackgroundColor03: #ffffff;
+  --NTBackgroundColor04: #ffffff;
+
+}
